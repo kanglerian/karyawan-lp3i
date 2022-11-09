@@ -5,6 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1619608988416288');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1619608988416288&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
   <link rel="icon" type="image/x-icon" href="/icons/lp3i.svg" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -122,8 +141,8 @@
         <h5 class="line-through text-slate-700">Rp350.000</h5>
         <h5 class="text-2xl font-bold text-red-500 mb-3">Rp250.000</h5>
         <a href="https://bit.ly/InfoPMBLP3ITasik"
-          class="bg-green-600 hover:bg-green-700 active:bg-green-800 focus:ring focus:ring-green-100 block w-full py-2 text-white font-medium rounded-lg text-center" target="_blank"><i
-            class="fab fa-whatsapp mr-1"></i>Daftar Sekarang!</a>
+          class="bg-green-600 hover:bg-green-700 active:bg-green-800 focus:ring focus:ring-green-100 block w-full py-2 text-white font-medium rounded-lg text-center"
+          target="_blank"><i class="fab fa-whatsapp mr-1"></i>Daftar Sekarang!</a>
         <p class="text-[12px] text-slate-700 mt-3">*Note: Kuota Terbatas hanya 10 orang pertama saja!</p>
       </div>
     </div>
@@ -145,8 +164,10 @@
     </div>
   </section>
   <div class="fixed bottom-5 right-2">
-    <a href="https://bit.ly/InfoPMBLP3ITasik" target="_blank"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_riycdgbe.json" background="transparent" speed="1"
-      style="width: 100px; height: 100px;" loop autoplay></lottie-player></a>
+    <a href="https://bit.ly/InfoPMBLP3ITasik" target="_blank">
+      <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_riycdgbe.json" background="transparent"
+        speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+    </a>
   </div>
   <footer class="max-w-sm mx-auto mt-10 mb-3">
     <div class="text-center text-slate-700 space-y-1">
